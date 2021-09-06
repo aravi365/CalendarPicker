@@ -60,7 +60,7 @@ export default function HeaderControls(props) {
       <View style={[styles.monthYearHeaderWrapper,monthYearHeaderWrapperStyle]}>
         <TouchableOpacity onPress={onPressMonth}>
           <Text style={[styles.monthHeaderMainText, textStyle, monthTitleStyle]} {...accessibilityProps}>
-            { monthName }
+            { monthName },
           </Text>
         </TouchableOpacity>
         <TouchableOpacity onPress={onPressYear}>
